@@ -2,14 +2,11 @@
 
 
 /**
- *  main - prints "programming is like building a multilingual puzzle, followed by a new line"
- *  return 0.
+ *  main - A program that  prints a line with puts function 
+ *  return: 0 (Sunccess).
  */
-
 int main(void)
-
 {
-         puts("\"Programming is like building a multilingual puzzle);
-         
-         return(0);
+puts("\"Programming is like building a multilingual puzzle");
+return(0);
 }	 
