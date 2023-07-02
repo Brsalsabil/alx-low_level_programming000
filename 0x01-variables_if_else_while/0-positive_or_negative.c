@@ -2,7 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main - Entry point
+ * main - Prints if number is positive, zero or negative
  * Return: Always 0 (Success)
  */
 
@@ -19,11 +19,11 @@ if (n>0)
 }
 	else if (n==o)
 {
-	printf("%d is izero\n", n);
+	printf("%d is zero\n", n);
 }
 else
 {
-	printf("%d is negtative\n", n);
+	printf("%d is negative\n", n);
 }
 	return (0);
 }
