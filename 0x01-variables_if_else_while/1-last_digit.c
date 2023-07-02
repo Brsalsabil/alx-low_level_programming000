@@ -2,7 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main - Prints if number is positive, zero or negative
+ * main - Entry point
  * Return: 0 (Success)
  */
 
@@ -10,12 +10,11 @@ int main(void)
 {
         int n;
 
-	int m ;
+	int m;
         
 	srand(time(0));
         n = rand() - RAND_MAX / 2;
-
-	m = n%10 ;
+	m = n % 10;
 if (m > 5)
 {
         printf("Last digit of %d is %d and is greater than 5\n", n, m);
