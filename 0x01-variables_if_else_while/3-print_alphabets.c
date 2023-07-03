@@ -5,9 +5,7 @@
  */
 int main(void)
 {
-	char c;
-	
-	char d;
+	char c, d;
 
 	c = 'a';
 	d = 'A';
@@ -17,7 +15,7 @@ int main(void)
 			c++;
 		}
 	while
-		(d <= 'z') {
+		(d <= 'Z') {
 			putchar(d);
 			d++;
 		}
