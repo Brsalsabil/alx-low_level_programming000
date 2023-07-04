@@ -1,12 +1,13 @@
 #include <stdio.h>
 /**
- * main - Entry point
+ * main - Prog Entry point
  * Return: Always 0 (Success)
  */
-int maint(void)
+int main(void)
 {
-	char c;
-	int d;
+	char c,
+
+	 int d;
 
 	c = 'a';
 	d = 0;
