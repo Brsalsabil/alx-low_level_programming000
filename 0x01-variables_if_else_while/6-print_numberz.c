@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
- * main - Prints all single digit numbers of base 10 starting from 0
- * Return: 0 (Success)
+ * main - Progs entry point
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
@@ -10,7 +10,7 @@ int main(void)
 	c = 0;
 	while
 		(c < 10) {
-			ptchar(c + '0');
+			putchar(c + '0');
 			c++;
 	}
 	putchar ('\n');
